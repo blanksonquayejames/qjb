@@ -1,0 +1,64 @@
+.nav{
+    background:linear-gradient(to right,greenyellow,rgb(0, 174, 255)) ;
+    border-radius: 8px;
+    border: 1px solid green;
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 3px;
+}
+
+body{
+    background: linear-gradient(to right,rgb(33, 68, 33),rgb(64, 64, 116));
+    text-align: center;
+}
+
+label{
+    color: white;
+    font-size: 25px;
+}
+
+input{
+    height: 35px;
+    width: 70%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    width: 70%;
+    height: 70px;border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+button.submit{
+    font-size: 21px;
+    background-color: green;
+    color: white;
+}
+
+button.reset{
+    font-size: 21px;
+    background-color: pink;
+    color: blue;
+}
+
+.media{
+    text-align: center;
+}
+
+.media img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+footer{
+    background-color: rgb(80, 80, 155);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}

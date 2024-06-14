@@ -1,0 +1,44 @@
+.nav{
+    background:linear-gradient(to right,greenyellow,rgb(0, 174, 255)) ;
+    border-radius: 8px;
+    border: 1px solid green;
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 3px;
+}
+
+.cd{
+    padding-left: 440px;
+}
+
+.document{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+.doc img{
+    width: 100%;
+
+}
+
+.media{
+    text-align: center;
+}
+
+.media img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+footer{
+    background-color: rgb(80, 80, 155);
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
