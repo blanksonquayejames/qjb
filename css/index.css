@@ -86,6 +86,7 @@
     display: flex;
 }
 
+
 .test img{
     width: 40px;
     height: 40px;
@@ -109,4 +110,41 @@ footer{
 h1{
     color: white;
     text-align: center;
+}
+
+@media only screen and (max-width:768px){
+    .nav{
+        font-size: 11px;
+    }
+
+    .course img{
+        width: 95%;
+    }
+    
+    .course{
+        background-color: rgb(227, 233, 240);
+    }
+    
+    .mycourses{
+        display: block;
+        gap: 0px;
+    }
+
+    
+.slider{
+    width: 100%;
+    margin-left: 0px;
+    height: 500px;
+}
+
+.slide{
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.slide img{
+    width: 98%;
+    display: block;
+    height: 400px;
+}
 }

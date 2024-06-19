@@ -15,7 +15,7 @@
 }
 
 .hob img{
-    width: 439px;
+    width: 430px;
     height: 31rem;
     border-radius: 3%;
 }
@@ -37,4 +37,19 @@ footer{
 h1{
     color: white;
     text-align: center;
+}
+
+@media only screen and (max-width:768px){
+    .nav{
+        font-size: 11px;
+    }
+
+    .hobbies{
+        display: block;
+    }
+
+    .hob img{
+        width: 345px;
+        height: 23rem;
+    }
 }

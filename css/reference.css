@@ -38,3 +38,18 @@ h1{
     color: white;
     text-align: center;
 }
+
+@media only screen and (max-width:768px){
+    .nav{
+        font-size: 11px;
+    }
+    
+    .ref{
+        display: block;
+    }
+
+    .reference img{
+        width: 343px;
+        height: 28rem;
+    }
+}

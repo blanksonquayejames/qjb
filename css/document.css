@@ -21,7 +21,6 @@
 
 .doc img{
     width: 100%;
-
 }
 
 .media{
@@ -41,4 +40,15 @@ footer{
 h1{
     color: white;
     text-align: center;
+}
+
+@media only screen and (max-width:768px){
+    .nav{
+        font-size: 11px;
+    }
+    
+    .document{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 }
